@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { createTheme, ThemeProvider, CssBaseline, Box } from "@mui/material";
-import HomePage from "./pages/Home/HomePage";
-import DestinationsPage from "./pages/Destination/DestinationsPage";
-import ContactPage from "./pages/Contact/ContactPage";
-import TripTypePage from "./pages/TripType/TripTypePage";
+import HomePage from "./pages/HomePage";
+import DestinationsPage from "./pages/DestinationsPage";
+import ContactPage from "./pages/ContactPage";
+import TripTypePage from "./pages/TripTypePage";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
+import "./App.css";
 
 const theme = createTheme({
   palette: {
