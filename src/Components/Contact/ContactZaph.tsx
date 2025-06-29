@@ -25,7 +25,7 @@ const ContactZaph = () => {
 
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
-          <Paper elevation={3} sx={{ p: { xs: 3, md: 4 } }}>
+          <Paper elevation={3} sx={{ p: { xs: 4, md: 4 } }}>
             <Typography variant="h5" gutterBottom align="center">
               Send Us a Message
             </Typography>

@@ -9,6 +9,12 @@ const Testimonials = () => {
       avatar: "/kim.jpg",
     },
     {
+      name: "Teddy Ann",
+      comment:
+        "We haven't felt so much Alive in a long time but Zaph Tours is just something else.",
+      avatar: "/ted.jpg",
+    },
+    {
       name: "Dennis Otwoma",
       comment:
         "Had a great time with my significant other thanks to Zaph Tours.",
@@ -30,12 +36,6 @@ const Testimonials = () => {
       comment:
         "It's been a minute since I can remember such a great experience all thanks to Zaph Tours.",
       avatar: "/sam.jpg",
-    },
-    {
-      name: "Empire Of The Sun",
-      comment:
-        "We haven't felt so much Alive in a long time but Zaph Tours is just something else.",
-      avatar: "/empire.jpg",
     },
   ];
 
