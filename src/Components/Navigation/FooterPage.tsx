@@ -1,7 +1,6 @@
-import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 
-const FooterPage: React.FC = () => {
+const FooterPage = () => {
   return (
     <Box
       component="footer"
@@ -12,8 +11,19 @@ const FooterPage: React.FC = () => {
       }}
     >
       <Container maxWidth="lg">
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
+        <Grid container spacing={4} justifyContent={"center"}>
+          <Grid
+            sx={{
+              flexBasis: {
+                xs: "100%",
+                md: "50%",
+              },
+              maxWidth: {
+                xs: "100%",
+                md: "50%",
+              },
+            }}
+          >
             <Typography variant="h6" gutterBottom>
               Zaph Tours
             </Typography>
@@ -22,7 +32,19 @@ const FooterPage: React.FC = () => {
               unforgettable experiences since 2024.
             </Typography>
           </Grid>
-          <Grid item xs={12} md={4}>
+
+          <Grid
+            sx={{
+              flexBasis: {
+                xs: "100%",
+                md: "50%",
+              },
+              maxWidth: {
+                xs: "100%",
+                md: "50%",
+              },
+            }}
+          >
             <Typography variant="h6" gutterBottom>
               Contact
             </Typography>
@@ -37,7 +59,15 @@ const FooterPage: React.FC = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Box sx={{ pt: 4, mt: 4, borderTop: 1, borderColor: "divider" }}>
+
+        <Box
+          sx={{
+            pt: 4,
+            mt: 4,
+            borderTop: 1,
+            borderColor: "divider",
+          }}
+        >
           <Typography variant="body2" align="center">
             © {new Date().getFullYear()} Zaph Tours. All rights reserved.
           </Typography>
