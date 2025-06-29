@@ -1,9 +1,8 @@
-import React from "react";
 import { TextField, Typography, Container, Box, Button } from "@mui/material";
 
-const NewsLetter: React.FC = () => {
+const NewsLetter = () => {
   return (
-    <Box>
+    <>
       <Container sx={{ py: 8 }}>
         <Box
           sx={{
@@ -38,7 +37,7 @@ const NewsLetter: React.FC = () => {
           </Box>
         </Box>
       </Container>
-    </Box>
+    </>
   );
 };
 

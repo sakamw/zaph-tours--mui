@@ -25,7 +25,7 @@ const HeroSection = styled(Box)(({ theme }) => ({
 }));
 const HomeHeroSection = () => {
   return (
-    <Box>
+    <>
       <HeroSection minHeight="100vh">
         <Box sx={{ position: "relative", zIndex: 1, p: 3 }}>
           <Typography variant="h2" component="h1" gutterBottom>
@@ -44,7 +44,7 @@ const HomeHeroSection = () => {
           </Button>
         </Box>
       </HeroSection>
-    </Box>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import HeaderPage from "../Components/Navigation/HeaderPage";
 
-const Header: React.FC = () => {
+const Header = () => {
   return <HeaderPage />;
 };
 

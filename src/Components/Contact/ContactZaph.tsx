@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -11,7 +10,7 @@ import {
   Paper,
 } from "@mui/material";
 
-const ContactZaph: React.FC = () => {
+const ContactZaph = () => {
   return (
     <Container sx={{ py: 8, minHeight: "100vh" }}>
       <Typography

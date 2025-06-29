@@ -1,6 +1,4 @@
-import React from "react";
-
-const DestinPage: React.FC = () => {
+const DestinPage = () => {
   return <div></div>;
 };
 
