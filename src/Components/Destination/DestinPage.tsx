@@ -1,13 +1,13 @@
 import {
   Container,
   Typography,
-  Grid,
   Card,
   CardMedia,
   CardContent,
   CardActions,
   Button,
   Box,
+  Stack,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
@@ -80,11 +80,27 @@ const DestinPage = () => {
       >
         Our Destinations
       </Typography>
-      <Grid container spacing={4}>
+
+      <Stack direction="row" flexWrap="wrap" justifyContent="center" gap={4}>
         {destinations.map((destination, index) => (
-          <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+          <Box
+            key={index}
+            sx={{
+              width: {
+                xs: "100%",
+                sm: "48%",
+                md: "31%",
+                lg: "23%",
+              },
+              display: "flex",
+            }}
+          >
             <Card
-              sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
             >
               <CardMedia
                 component="img"
@@ -120,9 +136,9 @@ const DestinPage = () => {
                 </Button>
               </CardActions>
             </Card>
-          </Grid>
+          </Box>
         ))}
-      </Grid>
+      </Stack>
     </Container>
   );
 };

@@ -2,7 +2,6 @@ import { Box, Typography, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 const HeroSection = styled(Box)(({ theme }) => ({
-  height: "80vh",
   backgroundImage: 'url("/safaris.jpg")',
   overflow: "hidden",
   backgroundSize: "cover",
