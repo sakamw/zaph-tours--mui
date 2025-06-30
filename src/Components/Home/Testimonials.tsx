@@ -5,36 +5,37 @@ const Testimonials = () => {
     {
       name: "Francis Kimani",
       comment:
-        "The best safari experience of my life! Zaph Tours made it possible.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/kim.jpg",
     },
     {
       name: "Teddy Ann",
       comment:
-        "We haven't felt so much Alive in a long time but Zaph Tours is just something else.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/ted.jpg",
     },
     {
       name: "Dennis Otwoma",
       comment:
-        "Had a great time with my significant other thanks to Zaph Tours.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/dennis.jpg",
     },
     {
       name: "Travis Scott",
-      comment: "Felt like being in Utopia! Highly recommend Zaph Tours.",
+      comment:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/trav.jpeg",
     },
     {
-      name: "Dean Winchester",
+      name: "Jensen Ross Ackles",
       comment:
-        "Loved every minute and moment of the safari. Can't think of any touring agency apart from Zaph Tours.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/dean.jpg",
     },
     {
-      name: "Sam Winchester",
+      name: "Jared Tristan Padalecki",
       comment:
-        "It's been a minute since I can remember such a great experience all thanks to Zaph Tours.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/sam.jpg",
     },
   ];
