@@ -73,9 +73,9 @@ const FeaturedDestinations = () => {
         Featured Destinations
       </Typography>
 
-      <Grid container spacing={4} justifyContent="center">
+      <Grid  container spacing={4} justifyContent="center">
         {featuredDestinations.map((destination) => (
-          <Grid
+          <Grid 
             key={destination.id}
             sx={{
               flexBasis: {
