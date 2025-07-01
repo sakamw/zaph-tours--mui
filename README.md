@@ -5,7 +5,7 @@ Zaph Tours is a premier travel company based in Kenya, specializing in providing
 
 ## Preview
 
-<video controls src="Zaph Tours - Google Chrome 2025-06-30 23-43-56.mp4" title="Zaph Tours Preview"></video>
+![preview](image.png)
 
 ## Tech Stack
 
