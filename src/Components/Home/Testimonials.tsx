@@ -21,7 +21,7 @@ const Testimonials = () => {
       avatar: "/dennis.jpg",
     },
     {
-      name: "Travis Scott",
+      name: "Isaac Mwangi",
       comment:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, tempore?",
       avatar: "/trav.jpeg",
