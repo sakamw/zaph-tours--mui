@@ -5,7 +5,6 @@ import {
   Button,
   Box,
   Link,
-  Divider,
   Paper,
   Stack,
 } from "@mui/material";
@@ -27,6 +26,7 @@ const ContactZaph = () => {
         direction={{ xs: "column", md: "row" }}
         spacing={6}
         alignItems="stretch"
+        sx={{ mb: 6 }}
       >
         <Paper elevation={3} sx={{ p: { xs: 3, md: 4 }, flex: 1 }}>
           <Typography variant="h5" gutterBottom align="center">
@@ -84,9 +84,7 @@ const ContactZaph = () => {
             ))}
           </Box>
 
-          <Divider sx={{ my: 3 }} />
-
-          <Typography variant="h5" gutterBottom align="center">
+          <Typography variant="h5" gutterBottom align="center" sx={{ mt: 4 }}>
             Our Location
           </Typography>
           <Box
@@ -111,6 +109,29 @@ const ContactZaph = () => {
           </Box>
         </Paper>
       </Stack>
+
+      <Paper elevation={3} sx={{ p: { xs: 3, md: 4 } }}>
+        <Typography variant="h5" gutterBottom align="center">
+          Contact Information
+        </Typography>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 1.5,
+            mt: 3,
+          }}
+        >
+          <Typography variant="body1">
+            Email: infozaphtours@gmail.com
+          </Typography>
+          <Typography variant="body1">Phone: +254 712 345 678</Typography>
+          <Typography variant="body1">
+            Address: Zaph House, Safari Road
+          </Typography>
+        </Box>
+      </Paper>
     </Container>
   );
 };

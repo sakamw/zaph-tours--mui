@@ -3,7 +3,7 @@ import { Box, Container, Typography } from "@mui/material";
 const AboutSection = () => {
   return (
     <Container sx={{ py: 8 }}>
-      <Box sx={{ textAlign: "center", mb: 8 }}>
+      <Box sx={{ textAlign: "center", mb: 2 }}>
         <Typography variant="h4" component="h2" gutterBottom>
           About Zaph Tours
         </Typography>
